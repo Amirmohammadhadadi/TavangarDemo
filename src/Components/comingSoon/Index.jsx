@@ -112,7 +112,7 @@ export default function ComingSoon() {
                             sx={{
                                 fontFamily: 'RD2',
                                 color: "#0a0e1a",
-                                fontWeight: "700",
+
                                 backgroundImage: "linear-gradient(135deg, #00c8ff 0%, #40e0d0 100%)",
                                 transition: 'all 0.3s ease',
                                 boxShadow: '0 8px 24px rgba(0, 200, 255, 0.4)',
