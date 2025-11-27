@@ -118,7 +118,7 @@ export default function ComingSoon() {
                                 boxShadow: '0 8px 24px rgba(0, 200, 255, 0.4)',
                                 borderRadius: "50px",
                                 pt: '16px',
-                                height: '50px',
+                                height: '85px',
 
                                 // ریسپانسیو
                                 fontSize: {
