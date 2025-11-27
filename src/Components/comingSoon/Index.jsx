@@ -117,7 +117,8 @@ export default function ComingSoon() {
                                 transition: 'all 0.3s ease',
                                 boxShadow: '0 8px 24px rgba(0, 200, 255, 0.4)',
                                 borderRadius: "50px",
-                                p: '10px',
+                                pt: '16px',
+                                height: '50px',
 
                                 // ریسپانسیو
                                 fontSize: {
