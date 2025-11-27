@@ -78,7 +78,15 @@ export default function ComingSoon() {
                         به‌زودی درکنار شما
                     </Button>
                     <Box >
-                        <Box component={'img'} width={'100%'} height={'100px'} src={logo} />
+                        <Box component="img"
+                            src={logo}
+                            sx={{
+                                width: { xs: "70%", sm: "60%", md: "50%" },
+                                height: "auto",
+                                maxHeight: { xs: 80, sm: 100, md: 120 },
+                                objectFit: "contain",
+                            }}
+                        />
                     </Box>
                     <Typography color='#b0c4de' fontFamily={'RD2'} fontSize={'28px'} fontWeight={300} >
                         پلتفرم توانبخشی آنلاین
@@ -109,6 +117,7 @@ export default function ComingSoon() {
                                 transition: 'all 0.3s ease',
                                 boxShadow: '0 8px 24px rgba(0, 200, 255, 0.4)',
                                 borderRadius: "50px",
+                                p: '10px',
 
                                 // ریسپانسیو
                                 fontSize: {
